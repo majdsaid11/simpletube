@@ -1,0 +1,21 @@
+
+  .video-title {
+    color: blueviolet;
+    font-size: larger;
+  }
+  .info {
+    color: white;
+    font-family: Roboto;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .tar:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+

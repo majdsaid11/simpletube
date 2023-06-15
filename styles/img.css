@@ -1,0 +1,20 @@
+.ph1{
+    width: 100%;
+    object-fit: cover;
+    object-position: top ;
+    border-width: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.profileimg1{
+    vertical-align: 32px;
+    border-radius: 24px;
+}
+.profileimg2{
+    vertical-align: 32px;
+    border-radius: 24px;
+}
+

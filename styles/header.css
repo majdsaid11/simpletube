@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(39, 39, 39);
+    border-bottom: #ffeeee;
+    z-index: 100;
+
+  }
+  
+  /*.sear {
+    height: 20px;
+    border: none;
+    font-family: arial;
+   width: 300px;
+    background-color: rgb(75, 75, 75);
+    flex:1;
+  }*/
+  
+  .leftHerader{
+    display: flex;
+   align-items: center;
+   margin-left: 20px;
+}
+
+.middleHeader{
+  display: flex;
+  flex-direction: row;
+    margin-left: 70px;
+    margin-right: 50px;
+    flex: 1;
+    max-width: 630px;
+    align-items: center;
+    align-content: space-between;
+  }
+    
+  .RightHeadr{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+  }
+  .logo{
+   height: 50px;
+    background-color: transparent;
+    margin-left: 10px;
+  
+
+  }.sear::placeholder{
+    color: #ffeeee;
+    width: 1000;
+  }
+  .sear{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: rgb(54, 54, 54);
+    border: none;
+    width: 20px;
+    max-width: 540px;
+    height: 40px;
+    border-width: 2px;
+    box-shadow: inset 1px 1px 1px black;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+  }
+  .sideBar {
+    background-color: transparent;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 10px;
+    height: 600px;
+    width: 70px;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+  }
+
+  
+.sear:active{
+  border: none;
+}
+
+  .videoimg{
+    position: relative;
+  }
+  
+.body{
+  background-color: #0f0f0f;
+  padding-top: 60px;
+  padding-left: 95px;
+}
